@@ -54,7 +54,7 @@ print("helllooo welcome honey")
 while game_is_on:
     user_choice = input("choose one of the numbers: rock(1) paper(2) scissors(3)")
     while user_choice != "1" and user_choice != "2" and user_choice != "3":
-        print("wrong answer choose again 1 or 2 or 3")
+        print("wrong answer darling, choose again 1 or 2 or 3")
         user_choice = input("choose one of the numbers: rock(1) paper(2) scissors(3)")
     else:
         computer_choice = random.randint(1,3)
@@ -62,27 +62,27 @@ while game_is_on:
 
     #case: user choose rock
     if user_choice == 1 and computer_choice == 3:
-        print("yaayyy you won")
+        print("yaayyy rock wins scissors, you won")
     elif user_choice == 1 and computer_choice == 2:
-        print("damm you lost")
+        print("damm rock loses to paper, you lost")
     elif user_choice ==1 and computer_choice == 1:
-        print("its a draw play again")
+        print("mmm.. rock and rock are equals, its a draw, play again")
 
     #case: user choose paper
     if user_choice == 2 and computer_choice == 1:
-        print("yaayyy you won")
+        print("yaayyy paper wins rock, you won")
     elif user_choice == 2 and computer_choice == 3:
-        print("damm you lost")
+        print("damm paper loses to scissors, you lost")
     elif user_choice == 2 and computer_choice == 2:
-        print("its a draw play again")
+        print("mmm.. paer equals paper ,its a draw play again")
 
     #case: user choose scissors
     if user_choice == 3 and computer_choice == 2:
-        print("yaayyy you won")
+        print("yaayyy scissors wins paper, you won")
     elif user_choice == 3 and computer_choice == 1:
-        print("damm you lost")
+        print("damm scissors loses to rock, you lost")
     elif user_choice == 3 and computer_choice == 3:
-        print("its a draw play again")
+        print(" scissors equals scissors, its a draw, play again")
 
     continue_request = True
     continue_answer = input("wanna continue? y/n").lower()

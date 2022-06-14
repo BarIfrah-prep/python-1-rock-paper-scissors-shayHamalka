@@ -115,4 +115,3 @@ while game_is_on:
       Remember Python's rules ( the ':' after a statement, the indentation with loops and statements..)
       
       """
-    pass

@@ -51,7 +51,7 @@ print("helllooo welcome honey")
 
 # The game will run in a WHILE loop.
 # The loop is infinite, and only the user has the power to stop it (when they say they don't want to play anymore)
-while game_is_on:
+while True:
     user_choice = input("choose one of the numbers: rock(1) paper(2) scissors(3)")
     while user_choice != "1" and user_choice != "2" and user_choice != "3":
         print("wrong answer darling, choose again 1 or 2 or 3")
